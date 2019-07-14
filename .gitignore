@@ -106,3 +106,4 @@ en.wiki-tacl-compounds.fasttext.5-6ngrams.neg5.1e-5_subs.bin
 en.wiki-tacl-compounds.fasttext.3-6ngrams.neg5.1e-5_subs.bin
 .idea/*
 .DS_Store
+play.py

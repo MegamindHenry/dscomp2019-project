@@ -1,0 +1,15 @@
+python3 training.py ../dscomp2019-project/trained_model/fasttext_vec_1.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_1 --eval_on_test
+
+python3 training.py ../dscomp2019-project/trained_model/fasttext_all_vec_1.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_all_1 --eval_on_test
+
+python3 training.py ../dscomp2019-project/trained_model/fasttext_vec_5.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_5 --eval_on_test
+
+python3 training.py ../dscomp2019-project/trained_model/fasttext_all_vec_5.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_all_5 --eval_on_test
+
+python3 training.py ../dscomp2019-project/trained_model/fasttext_vec_25.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_25 --eval_on_test
+
+python3 training.py ../dscomp2019-project/trained_model/fasttext_all_vec_25.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_all_25 --eval_on_test
+
+python3 training.py ../dscomp2019-project/trained_model/fasttext_vec_50.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_50 --eval_on_test
+
+python3 training.py ../dscomp2019-project/trained_model/fasttext_all_vec_50.bin data/eng-nn --composition_model=addition --batch_size 100 --save_path addition_all_50 --eval_on_test
